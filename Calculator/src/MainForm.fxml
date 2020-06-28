@@ -1,14 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="MainFormController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="355.0" prefWidth="330.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
+   <children>
+      <JFXTextField alignment="CENTER_RIGHT" layoutX="24.0" layoutY="41.0" prefHeight="60.0" prefWidth="288.0" promptText="0.0">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></JFXTextField>
+      <HBox layoutX="26.0" layoutY="112.0" prefHeight="44.0" prefWidth="288.0">
+         <children>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="AC" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="/" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="\%" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="&lt;--" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></JFXButton>
+         </children>
+      </HBox>
+      <HBox layoutX="26.0" layoutY="154.0" prefHeight="44.0" prefWidth="288.0">
+         <children>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="1" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="2" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="3" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="-" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox layoutX="27.0" layoutY="197.0" prefHeight="44.0" prefWidth="288.0">
+         <children>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="4" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="5" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="6" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="x" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox layoutX="26.0" layoutY="239.0" prefHeight="44.0" prefWidth="288.0">
+         <children>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="7" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="8" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="9" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="+" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox layoutX="27.0" layoutY="282.0" prefHeight="44.0" prefWidth="288.0">
+         <children>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="." textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="71.0" style="-fx-background-color: #85A0B2;" text="0" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton prefHeight="39.0" prefWidth="141.0" style="-fx-background-color: #85A0B2;" text="=" textAlignment="CENTER" textFill="#eeeeee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
 </AnchorPane>
