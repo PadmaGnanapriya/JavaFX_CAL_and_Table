@@ -3,6 +3,10 @@ import javafx.event.ActionEvent;
 
 public class MainFormController {
     public JFXTextField txt;
+    private double num1=0;
+    private double num2=0;
+    String selsectButton;
+
 
 
 
@@ -41,4 +45,13 @@ public class MainFormController {
     }
 
 
+    public void btn_plus(ActionEvent actionEvent) {
+        num1=Double.parseDouble(txt.getText());
+        txt.clear();
+    }
+
+    public void btn_equal(ActionEvent actionEvent) {
+        num2=Double.parseDouble(txt.getText());
+        txt.setText(String.valueOf(num1+num2));
+    }
 }
